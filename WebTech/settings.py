@@ -226,6 +226,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+$ heroku config:set DISABLE_COLLECTSTATIC=1
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
